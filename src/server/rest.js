@@ -30,6 +30,7 @@ module.exports = function restApiServer(app) {
         }
     })
     app.use("/user", userRoute)
+    
 
     //=====================================================Throwing Zone
     app.use(notFound)
